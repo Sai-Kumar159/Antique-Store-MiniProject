@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Responsive Antique website</title>
+        
+        <link rel="stylesheet" href="./main1.css">
+        <!--Box Icon-->
+        <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    </head>
+    <body>
+    <header>
+     <a href="#home" class="logo">
+        <img src="./Untitled.png" alt="our_logo">
+     </a>
+
+     <i class='bx bx-menu' id="menu-icon" ></i>
+
+     <ul class="navbar">
+      <li><a href="#home" >Home</a></li>
+      <li><a href="#About" >About</a></li>
+      <li><a href="#products" >Products</a></li>
+      <li><a href="#Customers" >Customers</a></li>
+    </ul>
+    <!--icon-->
+    <div class="header-icon">
+        <i class='bx bx-cart-alt' ></i>
+        <i class='bx bx-search' id="search-icon"></i>
+    </div>
+
+    <div class="search-box">
+        <input type="search" name="search-icon" id="search-icon" placeholder="Search Here..." >
+    </div>
+
+
+    </header>
+    <!--HOME-->
+    <style>
+        .home-text {
+            font-size: 1rem;
+            text-transform: uppercase;
+            font-weight: 500;
+            color: aqua;
+            text-align: center;
+            line-height: 1;
+            margin-top: 50px;
+        }
+
+        .home-text h1 {
+            font-size: 3.5rem;
+            margin-bottom: 20px;
+        }
+
+        .home-text h1 i {
+            color: #ff9900; /* Change color for the shop name */
+        }
+
+        .home-text p {
+            font-size: 1.5rem;
+            color: #555;
+        }
+
+        .home-text h2 {
+            font-size: 1.2rem;
+            color: rgb(255, 255, 255);
+        }
+
+        .accordion {
+            background-color: var(--box-shadow--);
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+
+        .accordion-header {
+            background-color: #9f1b1b;
+            padding: 10px;
+            cursor: pointer;
+        }
+
+        .accordion-content {
+            display: none;
+            padding: 10px;
+            color: red;
+        }
+
+        .accordion.active .accordion-content {
+            display: block;
+        }    
+    </style>
+    <section class="home" id="home">
+        <div class="home-text">
+            <div class="bordered-text"></div>
+            <style>
+                .bordered-text {
+                    border: 2px solid black; /* Border properties: width, style, color */
+                    padding: 10px; /* Add padding to create space between text and border */
+                    display: inline-block; /* or 'inline' or 'block' based on layout needs */
+                }
+            </style>
+            <div class="bordered-text"></div>
+            <h1>Start your day <br> with masterpiece antiques</h1>
+            <p1>Preserving History, One Antique at a Time</p1>
+                <br>
+                Welcome to <br>
+                <i>Timeless Treasures Hub</i>
+                <br>
+                <h2>Be the part of the History come get Valuable Antiques</h2>
+            <p3>Come purchase the finest items on the market.</p3>
+            <br><br>
+            <a href = "#products" class = "btn"><bold><i>Shop Now</i></bold></a>
+            </div>
+    </section>
+        </div>
+    <section class = "About" id = "About">
+        <div class="About-img">
+            <img src="PRODUCT_REAR.webp" width="300" height="300" alt="">
+        </div>
+        <div class="About-text">
+            <h2>Our history</h2>
+            <p>Very famous Painting Made Centuries Ago.</p>
+            <p>Our Story
+                Established in 1987,<i><bold>Masterpiece-Antiques</bold></i>  has grown from a small family endeavor into a haven for antique enthusiasts worldwide. Our founder, BAVAS, ignited this venture with a profound love for history and a keen eye for extraordinary craftsmanship.
+                <br>
+                <bold>
+                    Our Mission
+                At <i><bold>Masterpiece-Antiques</bold></i>, our mission is to curate a diverse collection of antiques that reflect different eras, cultures, and styles. Each piece is meticulously selected, preserving its authenticity and charm while offering a glimpse into bygone eras.
+                <br>
+                <p0>Our Collection</p0><br>
+                <p1>Explore our extensive assortment, ranging from exquisite furniture and rare artifacts to delicate ornaments and collectibles. Whether you're an avid collector, an interior design enthusiast, or a history aficionado, our collection has something unique to offer.</p1>
+                <br>
+                <br>
+                <div class="accordion">
+                    <div class="accordion-header">Learn More</div>
+                    <div class="accordion-content">
+                        <p4>Why Choose Us<br></p4>
+                            <p5>Authenticity Guaranteed: We take pride in offering authentic, verified antiques, ensuring each item's historical significance and value.
+                            Customer Satisfaction: Your experience matters. We strive to provide personalized service and assistance throughout your antique journey.
+                            Worldwide Shipping: No matter where you are, our seamless shipping ensures your treasured piece arrives safely at your doorstep.
+                            Shop Now
+                            Ready to embark on a journey through time? Browse our online store and discover a world of unparalleled craftsmanship and historical significance. Each purchase contributes to the legacy of these timeless artifacts.
+                            </p5>
+                            </bold>
+                            Our Mission
+                            At <i><bold>Masterpiece-Antiques</bold></i>, our mission is to curate a diverse collection of antiques that reflect different eras, cultures, and styles. Each piece is meticulously selected, preserving its authenticity and charm while offering a glimpse into bygone eras.
+                            <br>
+                            <p0>Our Collection</p0><br>
+                            <p1>Explore our extensive assortment, ranging from exquisite furniture and rare artifacts to delicate ornaments and collectibles. Whether you're an avid collector, an interior design enthusiast, or a history aficionado, our collection has something unique to offer.</p1>
+                            <br>
+                            Shop Now
+                            Ready to embark on a journey through time? Browse our online store and discover a world of unparalleled craftsmanship and historical significance. Each purchase contributes to the legacy of these timeless artifacts.</p5>
+                        </p4>
+                    </div>
+                </div>
+            
+                <script>
+                    const accordions = document.querySelectorAll('.accordion');
+            
+                    accordions.forEach(accordion => {
+                        accordion.addEventListener('click', function() {
+                            this.classList.toggle('active');
+                        });
+                    });
+                </script>
+            </p>
+            <style>
+                .home-text h1 i {
+                color: #ff9900; /* Change color for the shop name */
+            }
+
+            .home-text p {
+                font-size: 1.5rem;
+                color: #555;
+            }
+
+            .home-text h2 {
+                font-size: 1.2rem;
+                color: blueviolet;
+            }
+            </style>
+        </div>
+    </section>
+
+    <!--products-->
+    <section class="products" id="products">
+        <div class="heading">
+
+            <h2>
+                Our popular products 
+            </h2>
+        </div>
+    </section>
+<!--Container-->
+    <div class="products-container">
+        <div class="box">
+            <img src="Wooden-Chest.jpg" alt=".box" width="400" height="400">
+            <h3>Wooden Chest</h3>
+            <div class="content">
+                <span>$25</span>
+                <a href="#">Add To Cart</a>
+
+            </div>
+        </div>
+        <div class="box">
+            <img src="Windsor-Style-Armchair.jpg" alt=".box" width="300" height="300">
+            <h3>Windsor-Style Armchair
+            </h3>
+            <div class="content">
+                <span>$50</span>
+                <a href="#">Add To Cart</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="Antique-Sculptures.jpg" alt=".box" width="400" height="400">
+            <h3>Antique Sculptures</h3>
+            <div class="content">
+                <span>$75</span>
+                <a href="#">Add To Cart</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="Madame-Alexander-Dolls.jpg" alt=".box" width="400" height="400">
+            <h3>Madame Alexander Dolls</h3>
+            <div class="content">
+                <span>$100</span>
+                <a href="#">Add To Cart</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="Vending-Arcade-Machines.jpg" alt=".box" width="400" height="400">
+            <h3>Vending & Arcade Machines</h3>
+            <div class="content">
+                <span>$150</span>
+                <a href="#">Add To Cart</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="Old-Pocket-Watches.jpg" alt=".box" width="400" height="400">
+            <h3>Old Pocket Watches</h3>
+            <div class="content">
+                <span>$150</span>
+                <a href="#">Add To Cart</a>
+            </div>
+        </div>
+    </div>
+        <!--Customers-->
+
+        <section class="Customers" id="Customers">
+            <div class="heading">
+                <h2>Our Customers</h2>
+            </div>
+
+            <div class="customers-container">
+                <div class="box">
+                    <div class="starts">
+                        <i class="bx bxs-star" ></i>
+                        <i class="bx bxs-star" ></i>
+                        <i class="bx bxs-star" ></i>
+                        <i class="bx bxs-star-half" ></i>
+                        
+                    </div>
+                    <p>It took almost 2 weeks for painting to get delivered in my doorsteps and products safety is well guaranteed</p>
+                    <h2>Rakhi</h2>
+                    <img src="WhatsApp Image 2024-01-03 at 23.00.38_09e62ca1.jpg" alt="student">
+                </div>
+
+                <div class="box">
+                    <div class="starts">
+                        <i class="bx bxs-star" ></i>
+                        <i class="bx bxs-star" ></i>
+                        <i class="bx bxs-star" ></i>
+                        <i class="bx bxs-star" ></i>
+                        <i class="bx bxs-star-half" ></i>
+                    </div>
+                    <p>I did Aution and it was great amazing got a very rear item and it was crazy experience.</p>
+                    <h2>Alexandria</h2>
+                    <img src="images.jpeg" alt="women">
+                </div>
+
+                <div class="box">
+                    <div class="starts">
+                        <i class="bx bxs-star" ></i>
+                        <i class="bx bxs-star" ></i>
+                        <i class="bx bxs-star" ></i>
+                        <i class="bx bxs-star" ></i>
+                        <i class="bx bxs-star" ></i>
+                    </div>
+                    <p>I appreciate the quality of antiques are of world class standards </p>
+                    <h2>George</h2>
+                    <img src="WhatsApp Image 2024-01-03 at 23.00.38_5891c6b3.jpg" alt="men">
+                </div>
+            </div>
+        </section>
+        </section>
+        <section class="footer">
+            <div class="footer-box">
+                <h3>antique store</h3>
+                <p>Welcome to the antique store have fun getting finest products shop now</p>
+                <div class="social">
+                    
+                    <a href="https://facebook.com"><img src="Facebook_icon.svg.webp" height="50" width="10"><i class='bx bx1-facebook'></i></a>
+                    <a href="https://twitter.com/i/flow/login"><img src="twitter-logo-twitter-icon-transparent-free-free-png.webp" height="40" width="10"><i class='bx bx1-twitter'></i></a>
+                    <a href="https://www.instagram.com/?hl=en"><img src="INSTAGRAM.jpeg" height="40" width="20"><i class='bx bx1-instagram'></i></a>
+                    <a href="https://www.youtube.com/"><img src="images (1).jpeg" height="40" width="30" ><i class='bx bx1-tiktok'></i></a>
+                    
+                </div>
+            </div>
+
+
+            <div class="fotter-box">
+                <h3>Support</h3>
+                <li><a href="#">Product</a></li>
+                <li><a href="#">Help & Support</a></li>
+                <li><a href="#">Return Policy</a></li>
+                <li><a href="#">Terms of Use</a></li>
+                <li><a href="#">Product</a></li>
+            </div>
+            <div class="fotter-box">
+                <h3>View Guides</h3>
+                <li><a href="#">Features</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">Blog Posts</a></li>
+                <li><a href="#">Our Branches</a></li>
+                
+            </div>
+            <div class="footer-box">
+                <h3>Contact</h3>
+                <div class="contact">
+                    <span><i class="bx bxs-map"></i>250 New Year City,USA 10001</span>
+                    <span><i class="bx bxs-phone"></i>+1 444 744 8444</span>
+                    <span><i class="bx bxs-envelope"></i>antique@shop.com</span>
+                </div>
+            </div>
+
+        </section>
+        <!--Copyright-->
+            <div class="Copyright">
+            <p>&#169; CarpoolVenom All Right Reserved</p>
+            </div>
+        
+
+        
+
+        
+    </div>
+        <script src="./main1.js"></script>
+    </body>
+</html>

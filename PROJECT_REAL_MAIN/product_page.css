@@ -1,0 +1,103 @@
+/* Reset default margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Apply basic styles to the body */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    margin: 20px;
+  }
+  
+  /* Style the product container */
+  .product {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style the product name */
+  .product h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  /* Style the product image */
+  .product img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 5px;
+  }
+  
+  /* Style the purchase option */
+  .purchase {
+    margin-bottom: 20px;
+  }
+  
+  .purchase p {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .purchase button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .purchase button:hover {
+    background-color: #2980b9;
+  }
+  
+  /* Style the return and shipping policies */
+  .return-policy,
+  .shipping-policy {
+    margin-bottom: 20px;
+  }
+  
+  .return-policy h3,
+  .shipping-policy h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  /* Style the related products section */
+  .related-products {
+    margin-bottom: 20px;
+  }
+  
+  .related-products h2 {
+    font-size: 22px;
+    margin-bottom: 15px;
+  }
+  
+  /* Style each related product */
+  .related-product {
+    display: inline-block;
+    vertical-align: top;
+    width: 45%;
+    margin-right: 5%;
+    margin-bottom: 20px;
+  }
+  
+  .related-product img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .related-product p {
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  

@@ -1,0 +1,60 @@
+    <style>
+        .accordion {
+            background-color: var(--box-shadow--);
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+
+        .accordion-header {
+            background-color: #fafafa;
+            padding: 10px;
+            cursor: pointer;
+        }
+
+        .accordion-content {
+            display: none;
+            padding: 10px;
+            color: red;
+        }
+
+        .accordion.active .accordion-content {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="accordion">
+        <div class="accordion-header">Learn More</div>
+        <div class="accordion-content">
+            <p4>Why Choose Us<br></p4>
+                <p5>Authenticity Guaranteed: We take pride in offering authentic, verified antiques, ensuring each item's historical significance and value.
+                Customer Satisfaction: Your experience matters. We strive to provide personalized service and assistance throughout your antique journey.
+                Worldwide Shipping: No matter where you are, our seamless shipping ensures your treasured piece arrives safely at your doorstep.
+                Shop Now
+                Ready to embark on a journey through time? Browse our online store and discover a world of unparalleled craftsmanship and historical significance. Each purchase contributes to the legacy of these timeless artifacts.
+                </p5>
+                </bold>
+                Our Mission
+                At <i><bold>Masterpiece-Antiques</bold></i>, our mission is to curate a diverse collection of antiques that reflect different eras, cultures, and styles. Each piece is meticulously selected, preserving its authenticity and charm while offering a glimpse into bygone eras.
+                <br>
+                <p0>Our Collection</p0><br>
+                <p1>Explore our extensive assortment, ranging from exquisite furniture and rare artifacts to delicate ornaments and collectibles. Whether you're an avid collector, an interior design enthusiast, or a history aficionado, our collection has something unique to offer.</p1>
+                <br>
+                Shop Now
+                Ready to embark on a journey through time? Browse our online store and discover a world of unparalleled craftsmanship and historical significance. Each purchase contributes to the legacy of these timeless artifacts.</p5>
+            </p4>
+        </div>
+    </div>
+
+    <script>
+        // JavaScript to toggle the active class on click
+        const accordions = document.querySelectorAll('.accordion');
+
+        accordions.forEach(accordion => {
+            accordion.addEventListener('click', function() {
+                this.classList.toggle('active');
+            });
+        });
+    </script>
+</body>
+</html>
